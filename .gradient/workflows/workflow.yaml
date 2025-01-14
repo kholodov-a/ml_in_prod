@@ -1,0 +1,13 @@
+name: FlaskAppWorkflow
+project: ml-in-prod
+workspace:
+  type: git
+  url: https://github.com/kholodov-a/ml_in_prod
+  branch: main
+machine: Free-P5000
+container: python:3.9
+commands:
+  - pip install -r requirements.txt
+  - python app.py
+ports:
+  - 8000
