@@ -1,5 +1,5 @@
 name: FlaskAppWorkflow
-project: your-gradient-project-name
+project: ml-in-prod
 workspace:
   type: git
   url: https://github.com/kholodov-a/ml_in_prod
