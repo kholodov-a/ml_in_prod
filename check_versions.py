@@ -1,14 +1,14 @@
 import importlib.metadata
-import keras
-import tensorflow as tf
+# import keras
+# import tensorflow as tf
 import flask
 import numpy as np
 import pandas as pd
 from PIL import Image
 # import gunicorn
 
-print("Keras version:", keras.__version__)
-print("TensorFlow version:", tf.__version__)
+print("Keras version:", importlib.metadata.version("keras"))
+print("TensorFlow version:", importlib.metadata.version("tensorflow")
 print("Flask version:", importlib.metadata.version("flask"))
 print("NumPy version:", np.__version__)
 print("Pandas version:", pd.__version__)
